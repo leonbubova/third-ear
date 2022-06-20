@@ -115,7 +115,7 @@ svg {
   .intro-container {
     flex-direction: column-reverse;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 100%;
   }
 
   .intro {
@@ -123,6 +123,7 @@ svg {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0px;
+    height: 100%;
   }
 
   .intro-p {
@@ -147,7 +148,7 @@ svg {
   }
 
   .header {
-    height: 10vh;
+    height: 8rem;
   }
 
   svg {
