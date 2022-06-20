@@ -6,6 +6,16 @@ body {
   margin: 0 4rem;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  all: unset;
+}
+
 .logo {
   font-weight: 800;
   font-size: 36px;
@@ -40,6 +50,7 @@ body {
   background-color: black;
   color: white;
   padding: 0.8rem 1.5rem;
+  box-sizing: border-box;
 }
 
 .intro {
@@ -89,16 +100,19 @@ svg {
   background-color: white;
   margin-top: 0.5rem;
   display: none;
+  border: solid 2px black;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .content-header {
   font-weight: 800;
   font-size: 44px;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .content {
-  width: 58rem;
+  width: 50%;
   margin-top: 2rem;
 }
 
@@ -108,6 +122,10 @@ svg {
 
 .spacer {
   height: 2rem;
+}
+
+.spacer-big {
+  height: 2.5rem;
 }
 
 @media only screen and (max-width: 1000px) {
