@@ -197,6 +197,14 @@ svg {
   .content-text {
     font-size: 16px;
   }
+
+  .spacer {
+    height: 1rem;
+  }
+
+  .spacer-big {
+    height: 0rem;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
